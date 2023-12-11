@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald&display=swap');
+:root {
+    --main-font: 'Oswald', sans-serif;
+    --second-font: 'Inter', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 25px;
+}
